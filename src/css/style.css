@@ -1,0 +1,52 @@
+body{
+    background-image: url(../imagens/bg-desktop.svg);
+    background-color: hsl(257, 40%, 49%);
+    background-size: cover;
+    color: #fff;
+}
+
+.cabecalho{
+    margin-left: 70px;
+    margin-top: 60px;
+    
+}
+
+main{
+    display: flex;
+    margin-top: 100px;
+}
+
+main img{
+    margin-right: 90px;
+    width: 1400px;
+}
+
+section{
+    margin-top: 80px;
+    width: 900px;
+}
+
+section h2{
+    font-family: 'Poppins';
+    font-size: 80px;
+    font-weight: 600;
+}
+
+section p{
+    font-family: 'Open sans';
+    font-size: 31px;
+    font-weight: 400;
+    margin-top: 40px;
+}
+
+.botao{
+    font-size: 25px;
+    width: 300px;
+    height: 70px;
+    border-radius: 5em;
+    border: none;
+    background-color: hsl(300, 69%, 71%);
+    color: #fff;
+    margin-top: 30px;
+    box-shadow: 6px 9px 7px rgba(0, 0, 0, 0.3);
+}
