@@ -1,0 +1,79 @@
+@media(max-width: 375px){
+    
+    html{
+        background-image: url(../imagens/bg-mobile.svg);
+        background-size: contain;
+        width: 100%;
+       
+    }
+
+    .cabecalho{
+        margin: 10%;
+        align-items: center;
+        
+    }
+    
+    .cabecalho img{
+        display: flex;
+        width: 150px;
+    }
+    
+    .informacoes{
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+        width: 300px;
+        margin-bottom: 0;
+    }
+
+    .informacoes img{
+        display: flex;
+        width: 100%;
+        height: 100%;
+        
+    }
+
+    .texto{
+        width: 300px;
+        text-align: center;
+        margin-top: 40px;
+        height: auto;
+    }
+
+    .texto h2{
+        font-size: 25px;
+    }
+
+    .texto p{
+        font-size: 16px;
+        line-height: 25px;
+        margin-top: 15px;
+    }
+
+    .botao{
+        width: 200px;
+        height: 40px;
+        font-size: 14px;
+        margin-top: 20px;
+        margin-bottom: 0;
+        box-shadow: none;
+        
+    }
+
+    .rodape{
+        margin-top: 30px;
+        width: 300px;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .rodape i{
+        text-align: center;
+        width: 30px;
+        height: 30px;
+        font-size: 15px;
+    }
+    
+}

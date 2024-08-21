@@ -1,52 +1,88 @@
-body{
+html{
     background-image: url(../imagens/bg-desktop.svg);
     background-color: hsl(257, 40%, 49%);
     background-size: cover;
+    background-repeat: no-repeat;
     color: #fff;
 }
 
 .cabecalho{
-    margin-left: 70px;
+    margin-left: 90px;
     margin-top: 60px;
     
 }
 
-main{
+.informacoes{
     display: flex;
     margin-top: 100px;
 }
 
-main img{
+.informacoes img{
     margin-right: 90px;
     width: 1400px;
 }
 
-section{
+.texto{
     margin-top: 80px;
-    width: 900px;
+    width: 1000px;
+    height: 400px;
 }
 
-section h2{
+.texto h2{
     font-family: 'Poppins';
-    font-size: 80px;
+    font-size: 90px;
     font-weight: 600;
 }
 
-section p{
+.texto p{
     font-family: 'Open sans';
-    font-size: 31px;
+    font-size: 35px;
     font-weight: 400;
+    line-height: 50px;
     margin-top: 40px;
 }
 
 .botao{
     font-size: 25px;
     width: 300px;
-    height: 70px;
+    height: 90px;
     border-radius: 5em;
     border: none;
-    background-color: hsl(300, 69%, 71%);
-    color: #fff;
-    margin-top: 30px;
+    background-color: #fff;
+    color: hsl(257, 40%, 49%);
+    margin-top: 40px;
     box-shadow: 6px 9px 7px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.botao:hover{
+    background-color: hsl(300, 69%, 71%);
+    color:#fff
+}
+
+.rodape{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 200px;
+    display: flex;
+    justify-content: right;
+}
+
+footer i{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    margin: 10px 10px;
+    font-size: 25px;
+    text-align: center;
+    align-content: center;
+    border: 1px solid #fff;
+    border-radius: 10em;
+    cursor: pointer;
+}
+
+.rodape i:hover{
+    color: hsl(300, 69%, 71%);
+    border-color: hsl(300, 69%, 71%);
+    
 }
