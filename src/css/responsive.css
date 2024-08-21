@@ -4,11 +4,10 @@
         background-image: url(../imagens/bg-mobile.svg);
         background-size: contain;
         width: 100%;
-       
     }
 
     .cabecalho{
-        margin: 10%;
+        margin: 30px;
         align-items: center;
         
     }
